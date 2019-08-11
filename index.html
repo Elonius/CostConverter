@@ -11,16 +11,18 @@
 
 <body>
     <div id="container">
-        <input type="number" id="input" placeholder="$$$">
-        <br>
-        <div id="radioBtns">
-            <input type="radio" id="lbs" class="radioBtns" name="radiobtns">lb to kg
+        <div id="converter">
+            <input type="number" id="input" placeholder="$$">
             <br>
-            <input type="radio" id="kgs" class="radioBtns" name="radiobtns" checked="checked">kg to lb
-            <br>
+            <div id="radioBtns">
+                <input type="radio" id="lbs" class="radioBtns" name="radiobtns" checked="checked">lb to kg
+                <br>
+                <input type="radio" id="kgs" class="radioBtns" name="radiobtns">kg to lb
+                <br>
+            </div>
+            <button id="convert">Convert</button>
+            <div id="result"></div>
         </div>
-        <button id="convert">Convert</button>
-        <div id="result"></div>
     </div>
 
     <script src="main.js"></script>

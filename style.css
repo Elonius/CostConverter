@@ -1,23 +1,36 @@
 body {
     background-color: #4ba700;
+    margin: 25px;
+    color: #f0f0f0;
 }
 
 #radioBtns {
-    color: #f0f0f0;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 15px 0;
 }
 
 #convert {
     margin: 0 0 15px 0;
+    padding: 10px;
     font-size: 1.2em;
 }
 
 #result {
-    color: #f0f0f0;
     font-size: 1.5em;
     border: 1px solid black;
     width: 250px;
     height: 30px;
     text-align: center;
+}
+
+#input {
+    font-size: 1.2em;
+}
+
+#container {
+    text-align: center;
+}
+
+#converter {
+    display: inline-block;
 }
